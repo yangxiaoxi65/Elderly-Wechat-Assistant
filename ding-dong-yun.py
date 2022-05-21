@@ -46,6 +46,10 @@ async def on_message(msg: Message):
             'u=1116676390,2305043183&fm=26&gp=0.jpg',
             name='ding-dong.jpg'
         )
+        # file_box = FileBox.from_url(
+        #     'https://images.unsplash.com/photo-1470770903676-69b98201ea1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80',
+        #     name='Turtle-Colours.jpg'
+        # )
         await msg.say(file_box)         
     elif msg_src.startswith('消息提醒'):
         await msg.say('请以“内容：”开头，发送你要提醒的事情')
