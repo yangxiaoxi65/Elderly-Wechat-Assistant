@@ -103,7 +103,7 @@ async def main():
     # Replace your token here and umcommt that line, you can just run this python file successfully!
     # os.environ['token'] = 'puppet_paimon_your_token'
 
-    os.environ['WECHATY_PUPPET_SERVICE_TOKEN'] = 'puppet_padlocal_f8837cb790c84c31897fddcf43b36a1f'     
+    os.environ['WECHATY_PUPPET_SERVICE_TOKEN'] = 'puppet_padlocal_65b98b3be0b9493dabe65cb3be7bcff7'     
     if 'WECHATY_PUPPET_SERVICE_TOKEN' not in os.environ:
         print('''
             Error: WECHATY_PUPPET_SERVICE_TOKEN is not found in the environment variables
