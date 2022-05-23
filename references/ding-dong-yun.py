@@ -38,6 +38,7 @@ async def on_message(msg: Message):
     if msg.text() == '是否已吃药':
         await msg.say('已吃药')
         await msg.say(msg.chatter().name)
+        await msg.say(msg.talker().name)
         file_box = FileBox.from_url(
             'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/'
             'u=1116676390,2305043183&fm=26&gp=0.jpg',
